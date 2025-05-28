@@ -3,6 +3,7 @@ name = "papyrus"
 version = "0.1.0"
 description = ""
 authors = [
+    { name = "Eurobios Mews Labs", email = "" },
 ]
 readme = "README.md"
 requires-python = ">=3.9"
@@ -23,11 +24,12 @@ lint = [
 ]
 
 optional_extractor = [
+    "pandas",
+    "torch==2.7.0",
     "PyPDF2==3.0.1",
     "easyocr==1.7.2",
     "pymupdf",
     "pytesseract==0.3.13",
-    "torch==2.7.0",
     "camelot-py==1.0.0",
     "docling==2.34.0",
     "huggingface-hub==0.32.0",
