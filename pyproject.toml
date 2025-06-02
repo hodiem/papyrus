@@ -3,7 +3,7 @@ name = "papyrus"
 version = "0.1.0"
 description = ""
 authors = [
-    { name = "Eurobios Mews Labs", email = "" },
+    { name = "Eurobios Mews Labs"},
 ]
 readme = "README.md"
 requires-python = ">=3.9"
