@@ -4,7 +4,8 @@ import pytest
 from papyrus import engine
 from papyrus.core.file import File
 
-path = "./papyrus/data_pdf/invoice_100.pdf"
+
+path = "invoice_100.pdf"
 extractor_list = [
         engine.PDFPlumberExtractor(),
         # engine.DoclingExtractor(),
